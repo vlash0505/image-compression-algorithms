@@ -32,7 +32,7 @@ public class HWTCompressor {
         try {
             String inputImagePath = "rhino.jpg";
             String outputImagePath = "result_hwt.jpg";
-            double threshold = 2; // Set the threshold for compression
+            double threshold = 1; // Set the threshold for compression
 
             BufferedImage image = readImage(inputImagePath);
             double[][] imageData = convertTo2DUsingGetRGB(image);

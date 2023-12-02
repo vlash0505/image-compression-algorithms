@@ -27,7 +27,7 @@ public class DCTCompressor {
 
     // Constants
     private static final int BLOCK_SIZE = 8;
-    private static final int QUANTIZATION_STEP = 150;
+    private static final int QUANTIZATION_STEP = 50;
 
     public static void main(String[] args) {
         try {
